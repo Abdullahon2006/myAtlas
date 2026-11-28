@@ -18,6 +18,8 @@ targets:
       - path: Sources/MyAtlasCore
     resources:
       - path: myatlas/Resources
+        excludes:
+          - README.md
     dependencies:
       - package: MapLibre
     settings:
@@ -27,19 +29,22 @@ targets:
         INFOPLIST_FILE: myatlas/Info.plist
         CURRENT_PROJECT_VERSION: 1
         MARKETING_VERSION: 0.1.0
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
   myatlasTests:
     type: bundle.unit-test
     platform: iOS
     deploymentTarget: "17.0"
     sources:
       - path: myatlasTests
-      - path: Sources/MyAtlasCore
+      - path: Sources/MyAtlasCoreTests
     dependencies:
       - target: myatlas
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.myatlas.tests
         SWIFT_VERSION: 5.9
+        GENERATE_INFOPLIST_FILE: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
   myatlasUITests:
     type: bundle.ui-testing
     platform: iOS
@@ -52,3 +57,5 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.myatlas.uitests
         SWIFT_VERSION: 5.9
+        GENERATE_INFOPLIST_FILE: YES
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
