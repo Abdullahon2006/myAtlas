@@ -3,23 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0FDE337200BFCC6FFBE4FB1D /* MapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4896FAF5D7A732710387BD26 /* MapProvider.swift */; };
+		AA1100120012001200120012 /* MapLibreAtlasMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100120012001200120012 /* MapLibreAtlasMap.swift */; };
 		2079876453C8119FD3D642B3 /* MyAtlasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BC5DB6C06E1821D87D9AE9 /* MyAtlasUITests.swift */; };
-		23F4CDE991562FB784D8080C /* AtlasStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40963DE33599491E99FB12 /* AtlasStore.swift */; };
 		439714AA5107F9B6F27B04DE /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75A1BF73FCD12A859001338 /* HistoryView.swift */; };
 		4A5E670522EDB1DF06334C94 /* AtlasStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40963DE33599491E99FB12 /* AtlasStore.swift */; };
 		5E39B9D2F701B528686C99BF /* MapLibre in Frameworks */ = {isa = PBXBuildFile; productRef = 3F1162BF30A0D6D0300D92BD /* MapLibre */; };
 		6F59A447CB253F5BD13ED790 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE6D99FDC7E2218AAED3D2 /* Models.swift */; };
 		742FEBAE9A072AFA7ECC9FDE /* MediaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF842BCBBD06E688E130B3C /* MediaStore.swift */; };
-		7F631E20299141581A96C3A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 34C4FB7BAD4D05D370305F7F /* README.md */; };
 		8423101EC7789C7710EC2B5E /* MyAtlasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2176FCB010B3F53E804F00 /* MyAtlasAppTests.swift */; };
 		8A2627A6471CA4165FF8599D /* AtlasHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498CAAA76628C9C99DD594B6 /* AtlasHomeView.swift */; };
-		9A979B9DBC7C9551660075B1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DE6D99FDC7E2218AAED3D2 /* Models.swift */; };
 		9EDA0EF188C5FF12E9A9339F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3D70440447E9609A4E72D /* ContentView.swift */; };
+		AA1100010001000100010001 /* AtlasExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100010001000100010001 /* AtlasExporter.swift */; };
+		AA1100020002000200020002 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100020002000200020002 /* Colors.swift */; };
+		AA1100030003000300030003 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100030003000300030003 /* Typography.swift */; };
+		AA1100040004000400040004 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100040004000400040004 /* Components.swift */; };
+		AA1100050005000500050005 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100050005000500050005 /* LocationService.swift */; };
+		AA1100060006000600060006 /* VoiceRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100060006000600060006 /* VoiceRecorderService.swift */; };
+		AA1100070007000700070007 /* AddPlaceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100070007000700070007 /* AddPlaceSheet.swift */; };
+		AA1100080008000800080008 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100080008000800080008 /* PlaceDetailView.swift */; };
+		AA1100090009000900090009 /* OfflineVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100090009000900090009 /* OfflineVaultView.swift */; };
+		AA1100100010001000100010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1100100010001000100010 /* Assets.xcassets */; };
+		AA1100110011001100110011 /* AtlasStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1100110011001100110011 /* AtlasStoreTests.swift */; };
 		D7C60EAE1756461E55298EF1 /* AtlasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDDCA0AEC817341C0DF696A /* AtlasViewModel.swift */; };
 		FAE9D6EB7D3AC434B3BC3F36 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86925986698D091FC47C299 /* Theme.swift */; };
 		FCB74B11381920AA5293AC4D /* myatlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B67DC96E2ED706A20F5022 /* myatlasApp.swift */; };
@@ -47,6 +56,7 @@
 		233424C2516EFD2133E7305C /* myatlasUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = myatlasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C4FB7BAD4D05D370305F7F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4896FAF5D7A732710387BD26 /* MapProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProvider.swift; sourceTree = "<group>"; };
+		BB1100120012001200120012 /* MapLibreAtlasMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLibreAtlasMap.swift; sourceTree = "<group>"; };
 		498CAAA76628C9C99DD594B6 /* AtlasHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasHomeView.swift; sourceTree = "<group>"; };
 		55BCDFD94267E9D6B97C706D /* myatlas.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = myatlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB3D70440447E9609A4E72D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +65,17 @@
 		99B67DC96E2ED706A20F5022 /* myatlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myatlasApp.swift; sourceTree = "<group>"; };
 		A75A1BF73FCD12A859001338 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		A86925986698D091FC47C299 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BB1100010001000100010001 /* AtlasExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasExporter.swift; sourceTree = "<group>"; };
+		BB1100020002000200020002 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		BB1100030003000300030003 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		BB1100040004000400040004 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		BB1100050005000500050005 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		BB1100060006000600060006 /* VoiceRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderService.swift; sourceTree = "<group>"; };
+		BB1100070007000700070007 /* AddPlaceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceSheet.swift; sourceTree = "<group>"; };
+		BB1100080008000800080008 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		BB1100090009000900090009 /* OfflineVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineVaultView.swift; sourceTree = "<group>"; };
+		BB1100100010001000100010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB1100110011001100110011 /* AtlasStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasStoreTests.swift; sourceTree = "<group>"; };
 		BE2118228B1AB071E506116D /* myatlasTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = myatlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF842BCBBD06E688E130B3C /* MediaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaStore.swift; sourceTree = "<group>"; };
 		CCDDCA0AEC817341C0DF696A /* AtlasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasViewModel.swift; sourceTree = "<group>"; };
@@ -82,6 +103,7 @@
 				05460BC7879925B00F271B13 /* Info.plist */,
 				99B67DC96E2ED706A20F5022 /* myatlasApp.swift */,
 				A86925986698D091FC47C299 /* Theme.swift */,
+				CC1100010001000100010001 /* Design */,
 				67CFA34D74142D8C77DCA10A /* Features */,
 				563FCC4AB19C3B239D8325AA /* Infrastructure */,
 				52CB263D1133B17575F259C1 /* Resources */,
@@ -89,21 +111,67 @@
 			path = myatlas;
 			sourceTree = "<group>";
 		};
+		CC1100010001000100010001 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				BB1100020002000200020002 /* Colors.swift */,
+				BB1100040004000400040004 /* Components.swift */,
+				BB1100030003000300030003 /* Typography.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		CC1100020002000200020002 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				BB1100050005000500050005 /* LocationService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		CC1100030003000300030003 /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				BB1100070007000700070007 /* AddPlaceSheet.swift */,
+				BB1100080008000800080008 /* PlaceDetailView.swift */,
+			);
+			path = Places;
+			sourceTree = "<group>";
+		};
+		CC1100040004000400040004 /* Offline */ = {
+			isa = PBXGroup;
+			children = (
+				BB1100090009000900090009 /* OfflineVaultView.swift */,
+			);
+			path = Offline;
+			sourceTree = "<group>";
+		};
 		43C14AB4B798D8A620AC8422 = {
 			isa = PBXGroup;
 			children = (
 				25E89D148BC889491BF01BEF /* myatlas */,
 				687D21EBB172F856E83AF1CF /* MyAtlasCore */,
+				CC1100050005000500050005 /* MyAtlasCoreTests */,
 				7C519A45238DB156A61B233C /* myatlasTests */,
 				D9A3C728125EBD23D2D352C1 /* myatlasUITests */,
 				C678F9FCBC40357A473C9A95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		CC1100050005000500050005 /* MyAtlasCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1100110011001100110011 /* AtlasStoreTests.swift */,
+			);
+			name = MyAtlasCoreTests;
+			path = Sources/MyAtlasCoreTests;
+			sourceTree = "<group>";
+		};
 		442392B56750D31700D58C51 /* Media */ = {
 			isa = PBXGroup;
 			children = (
 				BEF842BCBBD06E688E130B3C /* MediaStore.swift */,
+				BB1100060006000600060006 /* VoiceRecorderService.swift */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -111,6 +179,7 @@
 		52CB263D1133B17575F259C1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BB1100100010001000100010 /* Assets.xcassets */,
 				34C4FB7BAD4D05D370305F7F /* README.md */,
 			);
 			path = Resources;
@@ -127,6 +196,7 @@
 		563FCC4AB19C3B239D8325AA /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				CC1100020002000200020002 /* Location */,
 				5B4B73CBD97A30C60E7C5B5A /* Maps */,
 				442392B56750D31700D58C51 /* Media */,
 			);
@@ -136,6 +206,7 @@
 		5B4B73CBD97A30C60E7C5B5A /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				BB1100120012001200120012 /* MapLibreAtlasMap.swift */,
 				4896FAF5D7A732710387BD26 /* MapProvider.swift */,
 			);
 			path = Maps;
@@ -146,6 +217,8 @@
 			children = (
 				5608DF9EA88AFC62629BE2FD /* Atlas */,
 				A9BCBC15CC78FDA21B0BA10F /* History */,
+				CC1100040004000400040004 /* Offline */,
+				CC1100030003000300030003 /* Places */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -153,6 +226,7 @@
 		687D21EBB172F856E83AF1CF /* MyAtlasCore */ = {
 			isa = PBXGroup;
 			children = (
+				BB1100010001000100010001 /* AtlasExporter.swift */,
 				EE40963DE33599491E99FB12 /* AtlasStore.swift */,
 				80DE6D99FDC7E2218AAED3D2 /* Models.swift */,
 			);
@@ -279,7 +353,7 @@
 			packageReferences = (
 				B8F448F8E0CF48F435950091 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
 			);
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 56;
 			productRefGroup = C678F9FCBC40357A473C9A95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -296,7 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F631E20299141581A96C3A9 /* README.md in Resources */,
+				AA1100100010001000100010 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23F4CDE991562FB784D8080C /* AtlasStore.swift in Sources */,
-				9A979B9DBC7C9551660075B1 /* Models.swift in Sources */,
+				AA1100110011001100110011 /* AtlasStoreTests.swift in Sources */,
 				8423101EC7789C7710EC2B5E /* MyAtlasAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,15 +390,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1100070007000700070007 /* AddPlaceSheet.swift in Sources */,
+				AA1100010001000100010001 /* AtlasExporter.swift in Sources */,
 				8A2627A6471CA4165FF8599D /* AtlasHomeView.swift in Sources */,
 				4A5E670522EDB1DF06334C94 /* AtlasStore.swift in Sources */,
 				D7C60EAE1756461E55298EF1 /* AtlasViewModel.swift in Sources */,
+				AA1100020002000200020002 /* Colors.swift in Sources */,
+				AA1100040004000400040004 /* Components.swift in Sources */,
 				9EDA0EF188C5FF12E9A9339F /* ContentView.swift in Sources */,
 				439714AA5107F9B6F27B04DE /* HistoryView.swift in Sources */,
+				AA1100050005000500050005 /* LocationService.swift in Sources */,
+				AA1100120012001200120012 /* MapLibreAtlasMap.swift in Sources */,
 				0FDE337200BFCC6FFBE4FB1D /* MapProvider.swift in Sources */,
 				742FEBAE9A072AFA7ECC9FDE /* MediaStore.swift in Sources */,
 				6F59A447CB253F5BD13ED790 /* Models.swift in Sources */,
+				AA1100090009000900090009 /* OfflineVaultView.swift in Sources */,
+				AA1100080008000800080008 /* PlaceDetailView.swift in Sources */,
 				FAE9D6EB7D3AC434B3BC3F36 /* Theme.swift in Sources */,
+				AA1100030003000300030003 /* Typography.swift in Sources */,
+				AA1100060006000600060006 /* VoiceRecorderService.swift in Sources */,
 				FCB74B11381920AA5293AC4D /* myatlasApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -366,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.myatlas.uitests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = myatlas;
@@ -376,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.myatlas.uitests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = myatlas;
@@ -405,6 +492,7 @@
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myatlas.app;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -414,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -422,6 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.myatlas.tests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myatlas.app/myatlas";
@@ -443,6 +533,7 @@
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myatlas.app;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -515,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,6 +615,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.myatlas.tests;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myatlas.app/myatlas";
